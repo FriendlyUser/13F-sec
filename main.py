@@ -33,7 +33,7 @@ def fetch_filings(data: dict):
     # 13F filings for Apple (ticker "aapl")
     # read list from holdings_list.txt
     year, month, useragent, rate_limit = data["year"], data["month"], data["useragent"], data["rate_limit"]
-    quarterly = QuarterlyFilings(year, month, user_agent=useragent, entry_filter=get_13F, rate_limit=rate_limit)
+    quarterly = QuarterlyFilings(year, month, user_agent=useragent, entry_filter=get_company_ab_10k, rate_limit=rate_limit)
     # map folder to year and quarter
     quarterly.save("filings")
 
@@ -82,5 +82,6 @@ if __name__ == '__main__':
     if args.mode == "get_list":
         get_list(data)
     elif args.mode == "download_companies":
+        fetch_filings(data)
         pass
     # main()
