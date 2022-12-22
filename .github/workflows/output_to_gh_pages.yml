@@ -31,7 +31,7 @@ jobs:
       run: |
         cd website/13F.grandfleet.eu.org
         pelican content -o output -s publishconf.py
-        sed -i '6i <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2479144310234386" crossorigin="anonymous"></script>' website/13F.grandfleet.eu.org/output/*.html
+        sed -i '6i <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2479144310234386" crossorigin="anonymous"></script>' output/*.html
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
