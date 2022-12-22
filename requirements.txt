@@ -1,1 +1,5 @@
 secedgar
+pandas
+pelican[markdown]
+tabulate
+seaborn

@@ -7,7 +7,9 @@
 # parse metadata until first blank line
 # parse filer
 import sys
+import pandas as pd
 import xml.etree.ElementTree as ET
+from xml.etree import ElementTree
 from enum import Enum
 
 
@@ -58,6 +60,45 @@ class DocParser():
             except IndexError as e:
                 print(e)
                 return line
+
+    @staticmethod
+    def strip_xml_ns(line: str):
+        """
+            Example: <ns0:infoTable>, for an xml tag the namespace would be "{http://www.sec.gov/edgar/document/thirteenf/informationtable}nameOfIssuer"
+            Returns: nameOfIssuer
+        """
+        # strip xml namespace from line
+        # if no namespace, return None
+        if "}" not in line:
+            return None
+        else:
+            return line.split("}")[1]
+
+    @staticmethod
+    def iter_docs(doc_table: ElementTree):
+        for info_table in doc_table:
+            doc_dict = {}
+            # move inner text from info_table to doc_dict for each element that has no children
+            for child in info_table:
+                # check if child has children
+                # if child has no children, move text to doc_dict
+                tag = DocParser.strip_xml_ns(child.tag)
+                if len(child) == 0 and child.text is not None:
+                    # get tag without namespace
+                    doc_dict[tag] = child.text
+                
+                # for shrsOrPrnAmt
+                # <sshPrnamt>76200</sshPrnamt>
+				# <sshPrnamtType>SH</sshPrnamtType>
+                # add sshPrnamt and sshPrnamtType to doc_dict
+                if tag == "shrsOrPrnAmt":
+                    for elem in child:
+                        new_tag = DocParser.strip_xml_ns(elem.tag)
+                        # get tag without namespace
+                        doc_dict[new_tag] = elem.text
+            yield doc_dict
+        else:
+            return
 
     def parse(self):
         with open(self.file_path, "r") as f:
@@ -142,7 +183,8 @@ class DocParser():
                 if line.startswith("<DOCUMENT>"):
                     continue
                 if line.startswith("<TYPE>"):
-                    self.curr_doc["type"] = DocParser.strip_tag(line)
+                    raw_line = DocParser.strip_tag(line)
+                    self.curr_doc["type"] = raw_line.replace(" ", "_")
                     continue
                 if line.startswith("<SEQUENCE>"):
                     self.curr_doc["sequence"] = DocParser.strip_tag(line)
@@ -164,13 +206,26 @@ class DocParser():
                     # parse xml
                     self.curr_doc["raw_xml"] = xml
                     # parse xml using xml.eTree
-                    root = ET.fromstring(xml)
-                    self.curr_doc["xml"] = root
+                    etree = ET.fromstring(xml)
+                    self.curr_doc["xml"] = etree
+ 
+                    if self.curr_doc["type"] == "INFORMATION_TABLE":
+                        # iterate across each infoTable element
+                        parsed_data = list(DocParser.iter_docs(etree))
+                        doc_df = pd.DataFrame(parsed_data)
+                        # doc_df.to_csv("data/test/burry.csv", index=False)
+                        self.curr_doc["df"] = doc_df
+                    if self.curr_doc["type"] == "13F-HR":
+                        pass
+
                     if self.parsed_data.get("documents") is None:
                         self.parsed_data["documents"] = []
                     self.parsed_data["documents"].append(self.curr_doc)
                     self.curr_doc = {}
-        print(self.parsed_data)
+        return self.parsed_data["documents"]
+
+    def get_parsed_data(self):
+        return self.parsed_data
 
 
 if __name__ == "__main__":
