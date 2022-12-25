@@ -1,5 +1,5 @@
-Title: Scion Asset Management, LLC - 1336528 
-Date: 2022-12-21 
+Title: Pershing Square Capital Management, L.P. - 1336528 
+Date: 2022-12-24
 Category: 13F 
 ## Quarterly holdings 
 

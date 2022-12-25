@@ -157,7 +157,7 @@ def parse_filings(data: dict = {}):
     
     metadata ={
         "filename": f"{output_name}.md",
-        "company_name": "Scion Asset Management, LLC",
+        "company_name": data.get("outputLabel", "Burry"),
         "category": "13F",
         "date": "2022-12-21",
         "start_date": "2022-01-01",
