@@ -5,6 +5,12 @@ grab 13F filings from sec using sec-python
 python parser.py
 ```
 
+To run the downloader use
+
+```python
+python3.8 compare_filings.py
+```
+
 ## TODO
 13F filing
 

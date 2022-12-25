@@ -1,6 +1,7 @@
 from secedgar import filings, FilingType, QuarterlyFilings
 import argparse
 import time
+from datetime import date
 
 def time_it(func):
     def wrapper(*args, **kwargs):
@@ -28,14 +29,19 @@ def get_company_ab_10k(filing_entry):
         return True
     return False
 
-@time_it
 def fetch_filings(data: dict):
     # 13F filings for Apple (ticker "aapl")
     # read list from holdings_list.txt
     year, month, useragent, rate_limit = data["year"], data["month"], data["useragent"], data["rate_limit"]
-    quarterly = QuarterlyFilings(year, month, user_agent=useragent, entry_filter=get_company_ab_10k, rate_limit=rate_limit)
+    combo_filings = filings(start_date=date(2022, 1, 1),
+                             end_date=date(2022, 12, 20),
+                             # filing_type=FilingType.FILING_13F,
+                             user_agent="Your name <dlcoding20@gmail.com>",
+                             entry_filter=get_company_ab_10k,
+                             rate_limit=5
+    )
     # map folder to year and quarter
-    quarterly.save("filings")
+    combo_filings.save("temp")
 
 @time_it
 def get_list(data: dict):
@@ -65,7 +71,7 @@ if __name__ == '__main__':
     # two modes of operation: get_list and download_companies
 
     parser = argparse.ArgumentParser(description='Get list of companies from 13F filings')
-    parser.add_argument('--mode',"-m", type=str, help='get_list or download_companies', default="get_list", required=False)
+    parser.add_argument('--mode',"-m", type=str, help='get_list or download_companies', default="download_companies", required=False)
     parser.add_argument('--year', "-y", type=int, help='year of 13F filings', default=2022, required=False)
     parser.add_argument('--quarter', "-q", type=int, help='quarter of 13F filings', default=2, required=False)
     parser.add_argument('--user_agent', "-ua", type=str, help='user agent for secedgar', default="Your name <dlcoding20@gmail.com>", required=False)

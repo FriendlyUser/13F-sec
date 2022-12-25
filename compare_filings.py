@@ -5,11 +5,15 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import re
 import pandas as pd
+import json
 from typing import List
 from parser import DocParser
 
+# read company list from holdings_list.txt
+with open("holdings_list.txt", "r") as f:
+    holdings_list = f.read().splitlines()
 
-company_list = ["Scion Asset Management, LLC", "Scion Asset Partners, LP"]
+company_list = holdings_list
 
 def get_company_of_interest(filing_entry):
     if "13F" in filing_entry.form_type and filing_entry.company_name.lower() in (name.lower() for name in company_list):
@@ -101,7 +105,11 @@ def output_to_md(final_docs: List[pd.DataFrame], metadata: dict):
 
         f.write(f"## All tables \n\n")
         # write all tables
-        reduced_df = combined_df[["nameOfIssuer", "value", "sshPrnamt", "sshPrnamtType", "putCall", "year", "quarter"]]
+        print(combined_df.columns)
+        reduced_df = combined_df[["nameOfIssuer", "value", "sshPrnamt", "sshPrnamtType",  "year", "quarter"]]
+        # if combined_df has putCall column
+        if "putCall" in combined_df.columns:
+            reduced_df["putCall"] = combined_df["putCall"]
         f.write(reduced_df.to_markdown(index=False))
 
         f.write("\n\n")
@@ -110,7 +118,9 @@ def output_to_md(final_docs: List[pd.DataFrame], metadata: dict):
         for cusip, group in grouped_df:
             f.write("\n \n")
             f.write(f"### {cusip} \n\n")
-            simple_group = group[["nameOfIssuer", "value", "sshPrnamt", "sshPrnamtType", "putCall", "year", "quarter"]]
+            simple_group = group[["nameOfIssuer", "value", "sshPrnamt", "sshPrnamtType", "year", "quarter"]]
+            if "putCall" in group.columns:
+                simple_group["putCall"] = group["putCall"]
             f.write(simple_group.to_markdown(index=False))
             f.write("\n \n")
 
@@ -121,6 +131,7 @@ def parse_filings(data: dict = {}):
     """ Parse filings
     """
     cik = data.get("cik", "1649339")
+    output_name = data.get("filename", "burry")
     # find files under temp/2022/QTR{1,2,3,4}/*.txt with glob
     final_docs = []
     for filename in glob.iglob(f'temp/2022/QTR*/{cik}/*.txt', recursive=True):
@@ -145,7 +156,7 @@ def parse_filings(data: dict = {}):
     final_docs = sorted(final_docs, key=lambda x: x["df"]["quarter"].iloc[0])
     
     metadata ={
-        "filename": f"burry_filings_2022.md",
+        "filename": f"{output_name}.md",
         "company_name": "Scion Asset Management, LLC",
         "category": "13F",
         "date": "2022-12-21",
@@ -157,11 +168,28 @@ def parse_filings(data: dict = {}):
     output_to_md(final_docs, metadata)
 
 def main():
-    fetch_filings()
+    # fetch_filings()
     # Congress created the 13F requirement in 1975. Its intention was to provide the U.S. public a view of the holdings of the nation's largest institutional investors.
     # so I can also cover what is missing from quarter to quarter
+    # global company_list
+    # set company_list to input from user
+    # read holdings.json
+    with open("holdings.json", "r") as f:
+        holdings_data = json.load(f)
+
+    for group in holdings_data:
+        # get all labels by name
+            # get cik
+        parse_filings(group)
+    # # for group in holdings_data:
+    #     # get all labels by name
+    #     # company_list = [x["name"] for x in group["labels "]]
+    parse_filings()
+    # for each company in holdings.json
+    # company_list = ["Scion Asset Management, LLC"]
+
 if __name__ == "__main__":
     # await asyncio.gather(main())
 
    # fetch_filings()
-   parse_filings()
+   main()
