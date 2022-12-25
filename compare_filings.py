@@ -181,15 +181,6 @@ def main():
         # get all labels by name
             # get cik
         parse_filings(group)
-    # # for group in holdings_data:
-    #     # get all labels by name
-    #     # company_list = [x["name"] for x in group["labels "]]
-    parse_filings()
-    # for each company in holdings.json
-    # company_list = ["Scion Asset Management, LLC"]
 
 if __name__ == "__main__":
-    # await asyncio.gather(main())
-
-   # fetch_filings()
    main()
