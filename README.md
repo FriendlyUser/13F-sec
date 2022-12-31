@@ -20,3 +20,10 @@ To build site
 cd website/13F.grandfleet.eu.org
 pelican content -s publishconf.py
 ```
+
+dev mode for pelican
+
+```python
+cd website/13F.grandfleet.eu.org
+pelican content -s publishconf.py -l
+```

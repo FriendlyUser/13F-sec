@@ -117,9 +117,11 @@ def output_to_md(final_docs: List[pd.DataFrame], metadata: dict):
     ax.figure.savefig(png_filename, bbox_inches="tight")
 
     # quarter diff combined
+    curr_year = date.today().year
+    year_quarter = f"{curr_year}Q{quarter_from_date()}"
     last_two_quarter_diff = pd.merge(last_quarter["df"], current_quarter["df"], how="outer", indicator=True)
     with open(filename, "w") as f:
-        f.write(f"Title: {metadata['company_name']} - {metadata['cik']} \n")
+        f.write(f"Title: {metadata['company_name']}_{metadata['cik']}_{year_quarter} \n")
         f.write(f"Date: {metadata['date']} \n")
         f.write(f"Category: {metadata['category']} \n")
         # merge df
