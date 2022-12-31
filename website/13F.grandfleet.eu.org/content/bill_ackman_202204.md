@@ -1,9 +1,9 @@
 Title: Pershing Square Capital Management, L.P. - 1336528 
-Date: 2022-12-24
+Date: 2022-12-21 
 Category: 13F 
 ## Quarterly holdings 
 
-![quarterly holdings]({attach}images/bill_ackman.png) 
+![quarterly holdings]({attach}images/bill_ackman_202204.png) 
 
 uses last two quarters to compare 
 

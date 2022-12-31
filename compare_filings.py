@@ -1,6 +1,8 @@
 from secedgar import filings, FilingType
 from datetime import date
 import glob
+import os
+import shutil
 import matplotlib.pyplot as plt
 import seaborn as sns
 import re
@@ -72,8 +74,10 @@ def output_to_md(final_docs: List[pd.DataFrame], metadata: dict):
         else:
             # pandas.concat
             combined_df = pd.concat([combined_df, doc["df"]])
-
-    # combine df then group by cusip
+    if combined_df is None:
+        print("No data to output")
+        raise Exception("No data to output")
+        return
     grouped_df = combined_df.groupby("cusip")
 
     # get 2nd last element in list
@@ -81,6 +85,7 @@ def output_to_md(final_docs: List[pd.DataFrame], metadata: dict):
     current_quarter = final_docs[-1]
 
     filename = metadata["filename"]
+    # append _yearquarter
     # adjust file name with current quarter and year
 
     csv_filename = filename.replace(".md", ".csv")
@@ -98,7 +103,11 @@ def output_to_md(final_docs: List[pd.DataFrame], metadata: dict):
     # use .loc[row_indexer, col_indexer]
     last_two_quarters.loc[:, "value"] = pd.to_numeric(last_two_quarters["value"])
     png_filename = filename.replace(".md", ".png")
-
+    # drop duplicates
+    duplicates = last_two_quarters.drop_duplicates(inplace=True, subset=['nameOfIssuer', 'quarter', 'value'])
+    # save duplicates
+    if duplicates is not None:
+        duplicates.to_csv(f"{filename}_duplicates.csv", index=False)
     # make pivot table
     pivot_df = last_two_quarters.pivot(index="nameOfIssuer", columns="quarter", values="value")
     # plot pivot table
@@ -152,7 +161,7 @@ def parse_filings(data: dict = {}):
     output_name = data.get("filename", "burry")
     # find files under temp/2022/QTR{1,2,3,4}/*.txt with glob
     final_docs = []
-    for filename in glob.iglob(f'temp/2022/QTR*/{cik}/*.txt', recursive=True):
+    for filename in glob.iglob(f'filings/2022/QTR*/{cik}/*.txt', recursive=True):
         documents = DocParser(filename, "13F").parse()
         # filter for INFORMATION_TABLE
         for document in documents:
@@ -172,8 +181,12 @@ def parse_filings(data: dict = {}):
 
     # sort by quarter
     final_docs = sorted(final_docs, key=lambda x: x["df"]["quarter"].iloc[0])
+
+    curr_year = date.today().year
+    curr_quarter = quarter_from_date()
+    curr_output = f"{output_name}_{curr_year}0{curr_quarter}"
     metadata = {
-        "filename": f"{output_name}.md",
+        "filename": f"{curr_output}.md",
         "company_name": data.get("outputLabel", "Burry"),
         "category": "13F",
         "date": "2022-12-21",
@@ -183,6 +196,27 @@ def parse_filings(data: dict = {}):
     }
     # eventually parse all this from a metadata yaml file or json file
     output_to_md(final_docs, metadata)
+    output_folder = "website/13F.grandfleet.eu.org/content"
+    # move md files named curr_output to output folder
+    # glob
+    for filename in glob.iglob(f'{curr_output}*.md', recursive=True):
+        shutil.copy(filename, output_folder)
+    # move png files named curr_output to output folder
+    for filename in glob.iglob(f'{curr_output}*.png', recursive=True):
+        shutil.copy(filename, f"{output_folder}/images")
+
+    # move csvs to csvs
+    for filename in glob.iglob(f'{curr_output}*.csv', recursive=True):
+        shutil.copy(filename, f"{output_folder}/csvs")
+
+    # delete curr_output files
+    for filename in glob.iglob(f'{curr_output}*', recursive=True):
+        os.remove(filename)
+
+    
+
+    # move files to output folder
+
 
 def main():
     # fetch_filings()
