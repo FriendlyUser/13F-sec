@@ -3,8 +3,11 @@ name: 13F Downloader
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 2,20 * *'
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
