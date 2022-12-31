@@ -1,0 +1,106 @@
+<SEC-DOCUMENT>0001567619-22-010748.txt : 20220516
+<SEC-HEADER>0001567619-22-010748.hdr.sgml : 20220516
+<ACCEPTANCE-DATETIME>20220516111230
+ACCESSION NUMBER:		0001567619-22-010748
+CONFORMED SUBMISSION TYPE:	13F-NT
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20220331
+FILED AS OF DATE:		20220516
+DATE AS OF CHANGE:		20220516
+EFFECTIVENESS DATE:		20220516
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Scion Asset Partners, LP
+		CENTRAL INDEX KEY:			0001768021
+		IRS NUMBER:				461968745
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		13F-NT
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-19326
+		FILM NUMBER:		22926619
+
+	BUSINESS ADDRESS:	
+		STREET 1:		20665 4TH STREET
+		STREET 2:		SUITE 201
+		CITY:			SARATOGA
+		STATE:			CA
+		ZIP:			95070
+		BUSINESS PHONE:		408-441-8400
+
+	MAIL ADDRESS:	
+		STREET 1:		20665 4TH STREET
+		STREET 2:		SUITE 201
+		CITY:			SARATOGA
+		STATE:			CA
+		ZIP:			95070
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-NT
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/thirteenffiler" xmlns:com="http://www.sec.gov/edgar/common">
+  <headerData>
+    <submissionType>13F-NT</submissionType>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <flags>
+        <confirmingCopyFlag>false</confirmingCopyFlag>
+        <returnCopyFlag>true</returnCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+      <filer>
+        <credentials>
+          <cik>0001768021</cik>
+          <ccc>XXXXXXXX</ccc>
+        </credentials>
+      </filer>
+      <periodOfReport>03-31-2022</periodOfReport>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPage>
+      <reportCalendarOrQuarter>03-31-2022</reportCalendarOrQuarter>
+      <filingManager>
+        <name>Scion Asset Partners, LP</name>
+        <address>
+          <com:street1>20665 4TH STREET</com:street1>
+          <com:street2>SUITE 201</com:street2>
+          <com:city>SARATOGA</com:city>
+          <com:stateOrCountry>CA</com:stateOrCountry>
+          <com:zipCode>95070</com:zipCode>
+        </address>
+      </filingManager>
+      <reportType>13F NOTICE</reportType>
+      <form13FFileNumber>028-19326</form13FFileNumber>
+      <otherManagersInfo>
+        <otherManager>
+          <cik>0001649339</cik>
+          <form13FFileNumber>028-17276</form13FFileNumber>
+          <name>Scion Asset Management, LLC</name>
+        </otherManager>
+      </otherManagersInfo>
+      <provideInfoForInstruction5>N</provideInfoForInstruction5>
+    </coverPage>
+    <signatureBlock>
+      <name>Michael J. Burry</name>
+      <title>Chief Executive Officer</title>
+      <phone>408-441-8400</phone>
+      <signature>/s/ Michael J. Burry</signature>
+      <city>Saratoga</city>
+      <stateOrCountry>CA</stateOrCountry>
+      <signatureDate>05-16-2022</signatureDate>
+    </signatureBlock>
+  </formData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

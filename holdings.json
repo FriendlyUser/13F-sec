@@ -9,5 +9,17 @@
     "name": "bill ackman",
     "outputLabel": "Pershing Square Capital Management, L.P.",
     "filename": "bill_ackman"
+}, 
+{
+    "cik": "1030818",
+    "name": "oak ridge capital",
+    "filename": "oak_ridge_capital",
+    "outputLabel": "Oak Ridge Capital Management, LLC"
+},
+{
+    "cik": "1037389",
+    "name": "RENAISSANCE TECHNOLOGIES LLC",
+    "filename": "renaissance_technologies_llc",
+    "outputLabel": "Renaissance Technologies LLC"
 }
 ]

@@ -35,6 +35,24 @@ def fetch_filings():
     combo_filings.save("temp")
 
 
+# month to quarter
+# 1-3 = 1
+# 4-6 = 2
+# 7-9 = 3
+# 10-12 = 4
+def quarter_from_date():
+    # get current month
+    month = date.today().month
+    if month <= 3:
+        return 1
+    elif month <= 6:
+        return 2
+    elif month <= 9:
+        return 3
+    else:
+        return 4
+
+
 def get_year_quarter_from_path(path: str):
     """ Get year and quarter from path
     """
@@ -63,6 +81,7 @@ def output_to_md(final_docs: List[pd.DataFrame], metadata: dict):
     current_quarter = final_docs[-1]
 
     filename = metadata["filename"]
+    # adjust file name with current quarter and year
 
     csv_filename = filename.replace(".md", ".csv")
     # write to csv
@@ -105,7 +124,6 @@ def output_to_md(final_docs: List[pd.DataFrame], metadata: dict):
 
         f.write(f"## All tables \n\n")
         # write all tables
-        print(combined_df.columns)
         reduced_df = combined_df[["nameOfIssuer", "value", "sshPrnamt", "sshPrnamtType",  "year", "quarter"]]
         # if combined_df has putCall column
         if "putCall" in combined_df.columns:
@@ -154,8 +172,7 @@ def parse_filings(data: dict = {}):
 
     # sort by quarter
     final_docs = sorted(final_docs, key=lambda x: x["df"]["quarter"].iloc[0])
-    
-    metadata ={
+    metadata = {
         "filename": f"{output_name}.md",
         "company_name": data.get("outputLabel", "Burry"),
         "category": "13F",

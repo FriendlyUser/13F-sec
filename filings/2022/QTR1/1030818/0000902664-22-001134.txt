@@ -1,0 +1,177 @@
+<SEC-DOCUMENT>0000902664-22-001134.txt : 20220207
+<SEC-HEADER>0000902664-22-001134.hdr.sgml : 20220207
+<ACCEPTANCE-DATETIME>20220207100555
+ACCESSION NUMBER:		0000902664-22-001134
+CONFORMED SUBMISSION TYPE:	13F-HR
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20211231
+FILED AS OF DATE:		20220207
+DATE AS OF CHANGE:		20220207
+EFFECTIVENESS DATE:		20220207
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			OAK MANAGEMENT CORP
+		CENTRAL INDEX KEY:			0001030818
+		IRS NUMBER:				000000000
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		13F-HR
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-17220
+		FILM NUMBER:		22595798
+
+	BUSINESS ADDRESS:	
+		STREET 1:		901 MAIN AVENUE, SUITE 600
+		CITY:			NORWALK
+		STATE:			CT
+		ZIP:			06851
+		BUSINESS PHONE:		2032268346
+
+	MAIL ADDRESS:	
+		STREET 1:		901 MAIN AVENUE, SUITE 600
+		CITY:			NORWALK
+		STATE:			CT
+		ZIP:			06851
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-HR
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xsi:schemaLocation="http://www.sec.gov/edgar/thirteenffiler eis_13F_Filer.xsd" xmlns="http://www.sec.gov/edgar/thirteenffiler" xmlns:ns1="http://www.sec.gov/edgar/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <headerData>
+    <submissionType>13F-HR</submissionType>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <flags>
+        <confirmingCopyFlag>false</confirmingCopyFlag>
+        <returnCopyFlag>false</returnCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+      <filer>
+        <credentials>
+          <cik>0001030818</cik>
+          <ccc>XXXXXXXX</ccc>
+        </credentials>
+      </filer>
+      <periodOfReport>12-31-2021</periodOfReport>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPage>
+      <reportCalendarOrQuarter>12-31-2021</reportCalendarOrQuarter>
+      <isAmendment>false</isAmendment>
+      <filingManager>
+        <name>OAK MANAGEMENT CORP</name>
+        <address>
+          <ns1:street1>901 Main Avenue, Suite 600</ns1:street1>
+          <ns1:city>Norwalk</ns1:city>
+          <ns1:stateOrCountry>CT</ns1:stateOrCountry>
+          <ns1:zipCode>06851</ns1:zipCode>
+        </address>
+      </filingManager>
+      <reportType>13F HOLDINGS REPORT</reportType>
+      <form13FFileNumber>028-17220</form13FFileNumber>
+      <provideInfoForInstruction5>N</provideInfoForInstruction5>
+    </coverPage>
+    <signatureBlock>
+      <name>Edward F. Glassmeyer</name>
+      <title>Authorized Person</title>
+      <phone>203-226-8346</phone>
+      <signature>/s/ Edward F. Glassmeyer</signature>
+      <city>Norwalk</city>
+      <stateOrCountry>CT</stateOrCountry>
+      <signatureDate>02-07-2022</signatureDate>
+    </signatureBlock>
+    <summaryPage>
+      <otherIncludedManagersCount>0</otherIncludedManagersCount>
+      <tableEntryTotal>4</tableEntryTotal>
+      <tableValueTotal>286779</tableValueTotal>
+    </summaryPage>
+  </formData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>INFORMATION TABLE
+<SEQUENCE>2
+<FILENAME>infotable.xml
+<TEXT>
+<XML>
+<?xml version="1.0" ?>
+<informationTable xsi:schemaLocation="http://www.sec.gov/edgar/document/thirteenf/informationtable eis_13FDocument.xsd" xmlns="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:n1="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <infoTable>
+    <nameOfIssuer>AIRSPAN NETWORKS HOLDING INC.</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>00951K104</cusip>
+    <value>108542</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>28639059</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>28639059</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>1LIFE HEALTHCARE INC.</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>68269G107</cusip>
+    <value>103187</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>5872919</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>5872919</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>ENJOY TECHNOLOGY, INC.</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>29335V106</cusip>
+    <value>24322</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>5264509</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>5264509</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+  <infoTable>
+    <nameOfIssuer>NEXTNAV INC.</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>65345N106</cusip>
+    <value>50728</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>5790823</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>5790823</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+</informationTable>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

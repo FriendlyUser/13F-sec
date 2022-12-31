@@ -1,0 +1,116 @@
+<SEC-DOCUMENT>0000948046-22-000033.txt : 20220211
+<SEC-HEADER>0000948046-22-000033.hdr.sgml : 20220211
+<ACCEPTANCE-DATETIME>20220211142557
+ACCESSION NUMBER:		0000948046-22-000033
+CONFORMED SUBMISSION TYPE:	13F-NT
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20211231
+FILED AS OF DATE:		20220211
+DATE AS OF CHANGE:		20220211
+EFFECTIVENESS DATE:		20220211
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			DEUTSCHE BANK NATIONAL TRUST CO
+		CENTRAL INDEX KEY:			0001020242
+		IRS NUMBER:				133347003
+		STATE OF INCORPORATION:			NY
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		13F-NT
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-11997
+		FILM NUMBER:		22619432
+
+	BUSINESS ADDRESS:	
+		STREET 1:		3 PARK PLAZA
+		STREET 2:		16TH FLOOR
+		CITY:			IRVINE
+		STATE:			CA
+		ZIP:			92614
+		BUSINESS PHONE:		714-247-6000
+
+	MAIL ADDRESS:	
+		STREET 1:		1761 EAST ST. ANDREW PLACE
+		STREET 2:		2ND FLOOR
+		CITY:			SANTA ANA
+		STATE:			CA
+		ZIP:			92705
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	BANKERS TRUST CO OF CALIFORNIA NA \FA
+		DATE OF NAME CHANGE:	19960801
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-NT
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xsi:schemaLocation="http://www.sec.gov/edgar/thirteenffiler eis_13F_Filer.xsd" xmlns="http://www.sec.gov/edgar/thirteenffiler" xmlns:ns1="http://www.sec.gov/edgar/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <headerData>
+    <submissionType>13F-NT</submissionType>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <flags>
+        <confirmingCopyFlag>false</confirmingCopyFlag>
+        <returnCopyFlag>false</returnCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+      <filer>
+        <credentials>
+          <cik>0001020242</cik>
+          <ccc>XXXXXXXX</ccc>
+        </credentials>
+      </filer>
+      <periodOfReport>12-31-2021</periodOfReport>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPage>
+      <reportCalendarOrQuarter>12-31-2021</reportCalendarOrQuarter>
+      <isAmendment>false</isAmendment>
+      <filingManager>
+        <name>DEUTSCHE BANK NATIONAL TRUST CO</name>
+        <address>
+          <ns1:street1>1761 East St. Andrew Place</ns1:street1>
+          <ns1:street2>2nd Floor</ns1:street2>
+          <ns1:city>Santa Ana</ns1:city>
+          <ns1:stateOrCountry>CA</ns1:stateOrCountry>
+          <ns1:zipCode>92705</ns1:zipCode>
+        </address>
+      </filingManager>
+      <reportType>13F NOTICE</reportType>
+      <form13FFileNumber>028-11997</form13FFileNumber>
+      <otherManagersInfo>
+        <otherManager>
+          <cik>0000948046</cik>
+          <form13FFileNumber>028-10103</form13FFileNumber>
+          <name>DEUTSCHE BANK AG\</name>
+        </otherManager>
+      </otherManagersInfo>
+      <provideInfoForInstruction5>N</provideInfoForInstruction5>
+    </coverPage>
+    <signatureBlock>
+      <name>Michael Caro</name>
+      <title>Vice President</title>
+      <phone>904-527-5258</phone>
+      <signature>Michael Caro</signature>
+      <city>Jacksonville</city>
+      <stateOrCountry>FL</stateOrCountry>
+      <signatureDate>02-11-2022</signatureDate>
+    </signatureBlock>
+    <summaryPage>
+      <otherIncludedManagersCount/>
+      <tableEntryTotal/>
+      <tableValueTotal/>
+    </summaryPage>
+  </formData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

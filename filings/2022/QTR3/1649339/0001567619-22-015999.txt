@@ -1,0 +1,131 @@
+<SEC-DOCUMENT>0001567619-22-015999.txt : 20220815
+<SEC-HEADER>0001567619-22-015999.hdr.sgml : 20220815
+<ACCEPTANCE-DATETIME>20220815102949
+ACCESSION NUMBER:		0001567619-22-015999
+CONFORMED SUBMISSION TYPE:	13F-HR
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20220630
+FILED AS OF DATE:		20220815
+DATE AS OF CHANGE:		20220815
+EFFECTIVENESS DATE:		20220815
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Scion Asset Management, LLC
+		CENTRAL INDEX KEY:			0001649339
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		13F-HR
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-17276
+		FILM NUMBER:		221163277
+
+	BUSINESS ADDRESS:	
+		STREET 1:		20665 4TH STREET
+		STREET 2:		SUITE 201
+		CITY:			SARATOGA
+		STATE:			CA
+		ZIP:			95070
+		BUSINESS PHONE:		408-441-8400
+
+	MAIL ADDRESS:	
+		STREET 1:		20665 4TH STREET
+		STREET 2:		SUITE 201
+		CITY:			SARATOGA
+		STATE:			CA
+		ZIP:			95070
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-HR
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/thirteenffiler" xmlns:com="http://www.sec.gov/edgar/common">
+  <headerData>
+    <submissionType>13F-HR</submissionType>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <flags>
+        <confirmingCopyFlag>false</confirmingCopyFlag>
+        <returnCopyFlag>true</returnCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+      <filer>
+        <credentials>
+          <cik>0001649339</cik>
+          <ccc>XXXXXXXX</ccc>
+        </credentials>
+      </filer>
+      <periodOfReport>06-30-2022</periodOfReport>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPage>
+      <reportCalendarOrQuarter>06-30-2022</reportCalendarOrQuarter>
+      <filingManager>
+        <name>Scion Asset Management, LLC</name>
+        <address>
+          <com:street1>20665 4TH STREET</com:street1>
+          <com:street2>SUITE 201</com:street2>
+          <com:city>SARATOGA</com:city>
+          <com:stateOrCountry>CA</com:stateOrCountry>
+          <com:zipCode>95070</com:zipCode>
+        </address>
+      </filingManager>
+      <reportType>13F HOLDINGS REPORT</reportType>
+      <form13FFileNumber>028-17276</form13FFileNumber>
+      <provideInfoForInstruction5>N</provideInfoForInstruction5>
+    </coverPage>
+    <signatureBlock>
+      <name>Michael J. Burry</name>
+      <title>Chief Executive Officer</title>
+      <phone>408-441-8400</phone>
+      <signature>/s/ Michael J. Burry</signature>
+      <city>Saratoga</city>
+      <stateOrCountry>CA</stateOrCountry>
+      <signatureDate>08-15-2022</signatureDate>
+    </signatureBlock>
+    <summaryPage>
+      <otherIncludedManagersCount>0</otherIncludedManagersCount>
+      <tableEntryTotal>1</tableEntryTotal>
+      <tableValueTotal>3309</tableValueTotal>
+      <isConfidentialOmitted>false</isConfidentialOmitted>
+    </summaryPage>
+  </formData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>INFORMATION TABLE
+<SEQUENCE>2
+<FILENAME>form13fInfoTable.xml
+<TEXT>
+<XML>
+<informationTable xmlns="http://www.sec.gov/edgar/document/thirteenf/informationtable">		<infoTable>
+			<nameOfIssuer>GEO GROUP INC NEW</nameOfIssuer>
+			<titleOfClass>COM</titleOfClass>
+			<cusip>36162J106</cusip>
+			<value>3309</value>
+			<shrsOrPrnAmt>
+				<sshPrnamt>501360</sshPrnamt>
+				<sshPrnamtType>SH</sshPrnamtType>
+			</shrsOrPrnAmt>
+			<investmentDiscretion>DFND</investmentDiscretion>
+			<votingAuthority>
+				<Sole>501360</Sole>
+				<Shared>0</Shared>
+				<None>0</None>
+			</votingAuthority>
+		</infoTable>
+</informationTable>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

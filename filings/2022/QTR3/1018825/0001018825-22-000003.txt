@@ -1,0 +1,145 @@
+<SEC-DOCUMENT>0001018825-22-000003.txt : 20220720
+<SEC-HEADER>0001018825-22-000003.hdr.sgml : 20220720
+<ACCEPTANCE-DATETIME>20220720134807
+ACCESSION NUMBER:		0001018825-22-000003
+CONFORMED SUBMISSION TYPE:	13F-HR
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20220630
+FILED AS OF DATE:		20220720
+DATE AS OF CHANGE:		20220720
+EFFECTIVENESS DATE:		20220720
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			IBM Retirement Fund
+		CENTRAL INDEX KEY:			0001018825
+		IRS NUMBER:				136353801
+		STATE OF INCORPORATION:			NY
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		13F-HR
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-05708
+		FILM NUMBER:		221093788
+
+	BUSINESS ADDRESS:	
+		STREET 1:		IBM RETIREMENT FUND
+		STREET 2:		1 NORTH CASTLE DRIVE
+		CITY:			ARMONK
+		STATE:			NY
+		ZIP:			10504
+		BUSINESS PHONE:		914-765-2020
+
+	MAIL ADDRESS:	
+		STREET 1:		1 NORTH CASTLE DRIVE
+		CITY:			ARMONK
+		STATE:			NY
+		ZIP:			10504
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	IBM RETIREMENT PLAN/NY
+		DATE OF NAME CHANGE:	19991005
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	IBM RETIRMENT FUND
+		DATE OF NAME CHANGE:	19990831
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	IBM RETIREMENT PLAN
+		DATE OF NAME CHANGE:	19990329
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-HR
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/thirteenffiler" xmlns:com="http://www.sec.gov/edgar/common">
+  <headerData>
+    <submissionType>13F-HR</submissionType>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <flags>
+        <confirmingCopyFlag>false</confirmingCopyFlag>
+        <returnCopyFlag>true</returnCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+      <filer>
+        <credentials>
+          <cik>0001018825</cik>
+          <ccc>XXXXXXXX</ccc>
+        </credentials>
+      </filer>
+      <periodOfReport>06-30-2022</periodOfReport>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPage>
+      <reportCalendarOrQuarter>06-30-2022</reportCalendarOrQuarter>
+      <filingManager>
+        <name>IBM Retirement Fund</name>
+        <address>
+          <com:street1>1 NORTH CASTLE DRIVE</com:street1>
+          <com:city>ARMONK</com:city>
+          <com:stateOrCountry>NY</com:stateOrCountry>
+          <com:zipCode>10504</com:zipCode>
+        </address>
+      </filingManager>
+      <reportType>13F HOLDINGS REPORT</reportType>
+      <form13FFileNumber>028-05708</form13FFileNumber>
+      <provideInfoForInstruction5>N</provideInfoForInstruction5>
+    </coverPage>
+    <signatureBlock>
+      <name>Keith Butler</name>
+      <title>Head Portfolio Trader</title>
+      <phone>914-765-2100</phone>
+      <signature>Keith Butler</signature>
+      <city>Armonk</city>
+      <stateOrCountry>NY</stateOrCountry>
+      <signatureDate>07-20-2022</signatureDate>
+    </signatureBlock>
+    <summaryPage>
+      <otherIncludedManagersCount>0</otherIncludedManagersCount>
+      <tableEntryTotal>1</tableEntryTotal>
+      <tableValueTotal>72129</tableValueTotal>
+      <isConfidentialOmitted>false</isConfidentialOmitted>
+    </summaryPage>
+  </formData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>INFORMATION TABLE
+<SEQUENCE>2
+<FILENAME>13fIBMQ22022KBB.xml
+<DESCRIPTION>13F Q22022
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:informationTable xmlns:ns1="http://www.sec.gov/edgar/document/thirteenf/informationtable">
+	<ns1:infoTable>
+		<ns1:nameOfIssuer>ISHARES TR RUSSELL 2000</ns1:nameOfIssuer>
+		<ns1:titleOfClass>COM</ns1:titleOfClass>
+		<ns1:cusip>464287655</ns1:cusip>
+		<ns1:value>72129</ns1:value>
+		<ns1:shrsOrPrnAmt>
+			<ns1:sshPrnamt>425893</ns1:sshPrnamt>
+			<ns1:sshPrnamtType>SH</ns1:sshPrnamtType>
+		</ns1:shrsOrPrnAmt>
+		<ns1:investmentDiscretion>SOLE</ns1:investmentDiscretion>
+		<ns1:otherManager>0</ns1:otherManager>
+		<ns1:votingAuthority>
+			<ns1:Sole>0</ns1:Sole>
+			<ns1:Shared>0</ns1:Shared>
+			<ns1:None>425893</ns1:None>
+		</ns1:votingAuthority>
+	</ns1:infoTable>
+</ns1:informationTable>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

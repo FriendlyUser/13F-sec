@@ -32,16 +32,20 @@ def get_company_ab_10k(filing_entry):
 def fetch_filings(data: dict):
     # 13F filings for Apple (ticker "aapl")
     # read list from holdings_list.txt
+    # parameters end_date based on current date - 2 days
+    end_month = date.today().month
+    end_day = date.today().day
+    end_year = date.today().year
     year, month, useragent, rate_limit = data["year"], data["month"], data["useragent"], data["rate_limit"]
     combo_filings = filings(start_date=date(2022, 1, 1),
-                             end_date=date(2022, 12, 20),
+                             end_date=date(end_year, end_month, end_day),
                              # filing_type=FilingType.FILING_13F,
                              user_agent="Your name <dlcoding20@gmail.com>",
                              entry_filter=get_company_ab_10k,
                              rate_limit=5
     )
     # map folder to year and quarter
-    combo_filings.save("temp")
+    combo_filings.save("filings")
 
 @time_it
 def get_list(data: dict):
