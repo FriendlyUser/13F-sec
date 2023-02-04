@@ -12,6 +12,7 @@ RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
+FEED_DOMAIN = "https://13f.grandfleet.eu.org"
 
 DELETE_OUTPUT_DIRECTORY = True
 
