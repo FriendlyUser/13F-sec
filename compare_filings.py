@@ -76,7 +76,6 @@ def output_to_md(final_docs: List[pd.DataFrame], metadata: dict):
             combined_df = pd.concat([combined_df, doc["df"]])
     if combined_df is None:
         print("No data to output")
-        raise Exception("No data to output")
         return
     grouped_df = combined_df.groupby("cusip")
 
@@ -163,7 +162,17 @@ def parse_filings(data: dict = {}):
     output_name = data.get("filename", "burry")
     # find files under temp/2022/QTR{1,2,3,4}/*.txt with glob
     final_docs = []
-    for filename in glob.iglob(f'filings/2022/QTR*/{cik}/*.txt', recursive=True):
+    curr_year = date.today().year
+
+    # check if there is a filing for the current quarter
+    curr_quarter = quarter_from_date()
+    curr_output = f"filings/{curr_year}/QTR{curr_quarter}/{cik}/*.txt"
+    if len(glob.glob(curr_output)) == 0:
+        print("No filings for current quarter")
+        return
+    
+    # curr Quarter
+    for filename in glob.iglob(f'filings/202*/QTR*/{cik}/*.txt', recursive=True):
         documents = DocParser(filename, "13F").parse()
         # filter for INFORMATION_TABLE
         for document in documents:
@@ -184,16 +193,21 @@ def parse_filings(data: dict = {}):
     # sort by quarter
     final_docs = sorted(final_docs, key=lambda x: x["df"]["quarter"].iloc[0])
 
-    curr_year = date.today().year
     curr_quarter = quarter_from_date()
     curr_output = f"{output_name}_{curr_year}0{curr_quarter}"
+
+    # check if curr_output exists
+    deployedFile = f"website/13F.grandfleet.eu.org/content/{curr_output}.md"
+    if os.path.exists(deployedFile):
+        print(f"{deployedFile} already exists, skipping")
+        return
+
+    # if output folder does not exist, create it
     metadata = {
         "filename": f"{curr_output}.md",
         "company_name": data.get("outputLabel", "Burry"),
         "category": "13F",
-        "date": "2022-12-21",
-        "start_date": "2022-01-01",
-        "end_date": "2022-12-20",
+        "date": date.today().strftime("%Y-%m-%d"),
         "cik": cik,
     }
     # eventually parse all this from a metadata yaml file or json file

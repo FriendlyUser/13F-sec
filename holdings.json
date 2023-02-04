@@ -15,5 +15,11 @@
     "name": "oak ridge capital",
     "filename": "oak_ridge_capital",
     "outputLabel": "Oak Ridge Capital Management, LLC"
+},
+{
+    "cik": "1018724",
+    "name": "amazon",
+    "filename": "amazon_holdings",
+    "outputLabel": "Amazon.com, Inc."
 }
 ]

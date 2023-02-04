@@ -29,6 +29,7 @@ jobs:
     - name: Run downloader
       run: |
         python downloader.py
+        python compare_filings.py
     # check if changes were added
     - name: Check if changes were added
       id: check_changes
