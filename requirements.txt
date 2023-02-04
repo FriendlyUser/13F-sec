@@ -3,4 +3,4 @@ pandas
 pelican[markdown]
 tabulate
 seaborn
-async-timeout>=4
+# async-timeout>=4
