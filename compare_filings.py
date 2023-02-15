@@ -78,8 +78,8 @@ def output_to_md(final_docs: List[pd.DataFrame], metadata: dict):
         print("No data to output")
         return
     grouped_df = combined_df.groupby("cusip")
-
     # get 2nd last element in list
+    # get last quarter and current quarter
     last_quarter = final_docs[-2]
     current_quarter = final_docs[-1]
 
@@ -171,9 +171,16 @@ def parse_filings(data: dict = {}):
         print("No filings for current quarter")
         return
     
+    # glob files and sort by date modified
     # curr Quarter
+    filenames_for_quarter = []
     for filename in glob.iglob(f'filings/202*/QTR*/{cik}/*.txt', recursive=True):
+        filenames_for_quarter.append(filename)
+    
+    sorted_names = sorted(filenames_for_quarter, key=os.path.getmtime)
+    for filename in sorted_names:
         documents = DocParser(filename, "13F").parse()
+        print(filename)
         # filter for INFORMATION_TABLE
         for document in documents:
             if document["type"] == "INFORMATION_TABLE":
@@ -186,12 +193,10 @@ def parse_filings(data: dict = {}):
                 temp_df["quarter"] = quarter
                 final_docs.append(document)
 
-        if len(final_docs) == 4:
-            break
-
-
-    # sort by quarter
-    final_docs = sorted(final_docs, key=lambda x: x["df"]["quarter"].iloc[0])
+    # take last 4 documents
+    final_docs = final_docs[-4:]
+    # exit(1)
+    # final_docs = sorted(final_docs, key=lambda x: x["df"]["quarter"].iloc[0])
 
     curr_quarter = quarter_from_date()
     curr_output = f"{output_name}_{curr_year}0{curr_quarter}"
