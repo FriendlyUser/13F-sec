@@ -1,0 +1,259 @@
+<SEC-DOCUMENT>0000905148-23-000213.txt : 20230214
+<SEC-HEADER>0000905148-23-000213.hdr.sgml : 20230214
+<ACCEPTANCE-DATETIME>20230214105939
+ACCESSION NUMBER:		0000905148-23-000213
+CONFORMED SUBMISSION TYPE:	13F-HR
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20221231
+FILED AS OF DATE:		20230214
+DATE AS OF CHANGE:		20230214
+EFFECTIVENESS DATE:		20230214
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Scion Asset Management, LLC
+		CENTRAL INDEX KEY:			0001649339
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		13F-HR
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-17276
+		FILM NUMBER:		23624439
+
+	BUSINESS ADDRESS:	
+		STREET 1:		20665 4TH STREET
+		STREET 2:		SUITE 201
+		CITY:			SARATOGA
+		STATE:			CA
+		ZIP:			95070
+		BUSINESS PHONE:		408-441-8400
+
+	MAIL ADDRESS:	
+		STREET 1:		20665 4TH STREET
+		STREET 2:		SUITE 201
+		CITY:			SARATOGA
+		STATE:			CA
+		ZIP:			95070
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-HR
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns:com="http://www.sec.gov/edgar/common" xmlns="http://www.sec.gov/edgar/thirteenffiler">
+  <schemaVersion>X0202</schemaVersion>
+  <headerData>
+    <submissionType>13F-HR</submissionType>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <filer>
+        <credentials>
+          <cik>0001649339</cik>
+          <ccc>XXXXXXXX</ccc>
+        </credentials>
+      </filer>
+      <periodOfReport>12-31-2022</periodOfReport>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPage>
+      <reportCalendarOrQuarter>12-31-2022</reportCalendarOrQuarter>
+      <isAmendment>false</isAmendment>
+      <filingManager>
+        <name>Scion Asset Management, LLC</name>
+        <address>
+          <com:street1>20665 4TH STREET</com:street1>
+          <com:street2>SUITE 201</com:street2>
+          <com:city>SARATOGA</com:city>
+          <com:stateOrCountry>CA</com:stateOrCountry>
+          <com:zipCode>95070</com:zipCode>
+        </address>
+      </filingManager>
+      <reportType>13F HOLDINGS REPORT</reportType>
+      <form13FFileNumber>028-17276</form13FFileNumber>
+      <crdNumber>000167772</crdNumber>
+      <secFileNumber>801-113529</secFileNumber>
+      <provideInfoForInstruction5>N</provideInfoForInstruction5>
+    </coverPage>
+    <signatureBlock>
+      <name>Michael J. Burry</name>
+      <title>Chief Executive Officer</title>
+      <phone>408-441-8400</phone>
+      <signature>/s/ Michael J. Burry</signature>
+      <city>Saratoga</city>
+      <stateOrCountry>CA</stateOrCountry>
+      <signatureDate>02-14-2023</signatureDate>
+    </signatureBlock>
+    <summaryPage>
+      <otherIncludedManagersCount>0</otherIncludedManagersCount>
+      <tableEntryTotal>9</tableEntryTotal>
+      <tableValueTotal>46536925</tableValueTotal>
+    </summaryPage>
+  </formData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>INFORMATION TABLE
+<SEQUENCE>2
+<FILENAME>informationtable.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="utf-8"?>
+<informationTable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sec.gov/edgar/document/thirteenf/informationtable">
+    <infoTable>
+        <nameOfIssuer>ALIBABA GROUP HLDG LTD</nameOfIssuer>
+        <titleOfClass>SPONSORED ADS</titleOfClass>
+        <cusip>01609W102</cusip>
+        <value>4404500</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>50000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <votingAuthority>
+            <Sole>50000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>BLACK KNIGHT INC</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>09215C105</cusip>
+        <value>9262500</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>150000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <votingAuthority>
+            <Sole>150000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>COHERENT CORP</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>19247G107</cusip>
+        <value>5265000</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>150000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <votingAuthority>
+            <Sole>150000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>GEO GROUP INC NEW</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>36162J106</cusip>
+        <value>11641241</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>1063127</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <votingAuthority>
+            <Sole>1063127</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>JD.COM INC</nameOfIssuer>
+        <titleOfClass>SPON ADR CL A</titleOfClass>
+        <cusip>47215P106</cusip>
+        <value>4209750</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>75000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <votingAuthority>
+            <Sole>75000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>MGM RESORTS INTERNATIONAL</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>552953101</cusip>
+        <value>3353000</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>100000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <votingAuthority>
+            <Sole>100000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>QURATE RETAIL INC</nameOfIssuer>
+        <titleOfClass>COM SER A</titleOfClass>
+        <cusip>74915M100</cusip>
+        <value>2445000</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>1500000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <votingAuthority>
+            <Sole>1500000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>SKYWEST INC</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>830879102</cusip>
+        <value>2063750</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>125000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <votingAuthority>
+            <Sole>125000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>WOLVERINE WORLD WIDE INC</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>978097103</cusip>
+        <value>3892184</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>356101</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <votingAuthority>
+            <Sole>356101</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+</informationTable>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
