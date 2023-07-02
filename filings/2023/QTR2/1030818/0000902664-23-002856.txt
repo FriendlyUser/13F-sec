@@ -1,0 +1,130 @@
+<SEC-DOCUMENT>0000902664-23-002856.txt : 20230508
+<SEC-HEADER>0000902664-23-002856.hdr.sgml : 20230508
+<ACCEPTANCE-DATETIME>20230508130010
+ACCESSION NUMBER:		0000902664-23-002856
+CONFORMED SUBMISSION TYPE:	13F-HR
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20230331
+FILED AS OF DATE:		20230508
+DATE AS OF CHANGE:		20230508
+EFFECTIVENESS DATE:		20230508
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			OAK MANAGEMENT CORP
+		CENTRAL INDEX KEY:			0001030818
+		IRS NUMBER:				000000000
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		13F-HR
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-17220
+		FILM NUMBER:		23896819
+
+	BUSINESS ADDRESS:	
+		STREET 1:		901 MAIN AVENUE, SUITE 600
+		CITY:			NORWALK
+		STATE:			CT
+		ZIP:			06851
+		BUSINESS PHONE:		2032268346
+
+	MAIL ADDRESS:	
+		STREET 1:		901 MAIN AVENUE, SUITE 600
+		CITY:			NORWALK
+		STATE:			CT
+		ZIP:			06851
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-HR
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xsi:schemaLocation="http://www.sec.gov/edgar/thirteenffiler eis_13F_Filer.xsd" xmlns="http://www.sec.gov/edgar/thirteenffiler" xmlns:ns1="http://www.sec.gov/edgar/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <schemaVersion>X0202</schemaVersion>
+  <headerData>
+    <submissionType>13F-HR</submissionType>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <flags>
+        <confirmingCopyFlag>false</confirmingCopyFlag>
+        <returnCopyFlag>false</returnCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+      <filer>
+        <credentials>
+          <cik>0001030818</cik>
+          <ccc>XXXXXXXX</ccc>
+        </credentials>
+      </filer>
+      <periodOfReport>03-31-2023</periodOfReport>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPage>
+      <reportCalendarOrQuarter>03-31-2023</reportCalendarOrQuarter>
+      <isAmendment>false</isAmendment>
+      <filingManager>
+        <name>OAK MANAGEMENT CORP</name>
+        <address>
+          <ns1:street1>901 Main Avenue, Suite 600</ns1:street1>
+          <ns1:city>Norwalk</ns1:city>
+          <ns1:stateOrCountry>CT</ns1:stateOrCountry>
+          <ns1:zipCode>06851</ns1:zipCode>
+        </address>
+      </filingManager>
+      <reportType>13F HOLDINGS REPORT</reportType>
+      <form13FFileNumber>028-17220</form13FFileNumber>
+      <provideInfoForInstruction5>N</provideInfoForInstruction5>
+    </coverPage>
+    <signatureBlock>
+      <name>Edward F. Glassmeyer</name>
+      <title>Authorized Person</title>
+      <phone>203-226-8346</phone>
+      <signature>/s/ Edward F. Glassmeyer</signature>
+      <city>Norwalk</city>
+      <stateOrCountry>CT</stateOrCountry>
+      <signatureDate>05-08-2023</signatureDate>
+    </signatureBlock>
+    <summaryPage>
+      <otherIncludedManagersCount>0</otherIncludedManagersCount>
+      <tableEntryTotal>1</tableEntryTotal>
+      <tableValueTotal>19760951</tableValueTotal>
+    </summaryPage>
+  </formData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>INFORMATION TABLE
+<SEQUENCE>2
+<FILENAME>infotable.xml
+<TEXT>
+<XML>
+<?xml version="1.0" ?>
+<informationTable xsi:schemaLocation="http://www.sec.gov/edgar/document/thirteenf/informationtable eis_13FDocument.xsd" xmlns="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:n1="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <infoTable>
+    <nameOfIssuer>Airspan Networks Holdings Inc.</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>00951K104</cusip>
+    <value>19760951</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>28639059</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>28639059</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+</informationTable>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

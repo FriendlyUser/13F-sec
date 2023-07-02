@@ -1,0 +1,109 @@
+<SEC-DOCUMENT>0000913414-23-000045.txt : 20230512
+<SEC-HEADER>0000913414-23-000045.hdr.sgml : 20230512
+<ACCEPTANCE-DATETIME>20230512140736
+ACCESSION NUMBER:		0000913414-23-000045
+CONFORMED SUBMISSION TYPE:	13F-NT
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20230331
+FILED AS OF DATE:		20230512
+DATE AS OF CHANGE:		20230512
+EFFECTIVENESS DATE:		20230512
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			BlackRock Advisors (UK) Ltd
+		CENTRAL INDEX KEY:			0001034551
+		IRS NUMBER:				000000000
+
+	FILING VALUES:
+		FORM TYPE:		13F-NT
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-06128
+		FILM NUMBER:		23914774
+
+	BUSINESS ADDRESS:	
+		STREET 1:		MURRAY HOUSE
+		STREET 2:		1 ROYAL MINT COURT
+		CITY:			LONDON
+		STATE:			X0
+		ZIP:			EC3N 4HH
+		BUSINESS PHONE:		44 207 668 7619
+
+	MAIL ADDRESS:	
+		STREET 1:		MURRAY HOUSE
+		STREET 2:		1 ROYAL MINT COURT
+		CITY:			LONDON
+		STATE:			X0
+		ZIP:			EC3N 4HH
+
+	FORMER COMPANY:	
+		FORMER CONFORMED NAME:	BARCLAYS GLOBAL INVESTORS LTD
+		DATE OF NAME CHANGE:	19990402
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-NT
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/thirteenffiler" xmlns:com="http://www.sec.gov/edgar/common">
+  <schemaVersion>X0202</schemaVersion>
+  <headerData>
+    <submissionType>13F-NT</submissionType>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <flags>
+        <confirmingCopyFlag>false</confirmingCopyFlag>
+        <returnCopyFlag>false</returnCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+      <filer>
+        <credentials>
+          <cik>0001034551</cik>
+          <ccc>XXXXXXXX</ccc>
+        </credentials>
+      </filer>
+      <periodOfReport>03-31-2023</periodOfReport>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPage>
+      <reportCalendarOrQuarter>03-31-2023</reportCalendarOrQuarter>
+      <filingManager>
+        <name>BlackRock Advisors (UK) Ltd</name>
+        <address>
+          <com:street1>MURRAY HOUSE</com:street1>
+          <com:street2>1 ROYAL MINT COURT</com:street2>
+          <com:city>LONDON</com:city>
+          <com:stateOrCountry>X0</com:stateOrCountry>
+          <com:zipCode>EC3N 4HH</com:zipCode>
+        </address>
+      </filingManager>
+      <reportType>13F NOTICE</reportType>
+      <form13FFileNumber>028-06128</form13FFileNumber>
+      <otherManagersInfo>
+        <otherManager>
+          <cik>0001364742</cik>
+          <form13FFileNumber>028-12019</form13FFileNumber>
+          <name>BlackRock Inc.</name>
+        </otherManager>
+      </otherManagersInfo>
+      <provideInfoForInstruction5>N</provideInfoForInstruction5>
+    </coverPage>
+    <signatureBlock>
+      <name>Spencer Fleming</name>
+      <title>Attorney-In-Fact</title>
+      <phone>212-810-5300</phone>
+      <signature>Spencer Fleming</signature>
+      <city>New York</city>
+      <stateOrCountry>NY</stateOrCountry>
+      <signatureDate>05-12-2023</signatureDate>
+    </signatureBlock>
+  </formData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

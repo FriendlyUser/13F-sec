@@ -1,0 +1,490 @@
+<SEC-DOCUMENT>0000905148-23-000408.txt : 20230515
+<SEC-HEADER>0000905148-23-000408.hdr.sgml : 20230515
+<ACCEPTANCE-DATETIME>20230515121007
+ACCESSION NUMBER:		0000905148-23-000408
+CONFORMED SUBMISSION TYPE:	13F-HR
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20230331
+FILED AS OF DATE:		20230515
+DATE AS OF CHANGE:		20230515
+EFFECTIVENESS DATE:		20230515
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Scion Asset Management, LLC
+		CENTRAL INDEX KEY:			0001649339
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		13F-HR
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-17276
+		FILM NUMBER:		23920068
+
+	BUSINESS ADDRESS:	
+		STREET 1:		20665 4TH STREET
+		STREET 2:		SUITE 201
+		CITY:			SARATOGA
+		STATE:			CA
+		ZIP:			95070
+		BUSINESS PHONE:		408-441-8400
+
+	MAIL ADDRESS:	
+		STREET 1:		20665 4TH STREET
+		STREET 2:		SUITE 201
+		CITY:			SARATOGA
+		STATE:			CA
+		ZIP:			95070
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-HR
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns:com="http://www.sec.gov/edgar/common" xmlns="http://www.sec.gov/edgar/thirteenffiler">
+  <schemaVersion>X0202</schemaVersion>
+  <headerData>
+    <submissionType>13F-HR</submissionType>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <filer>
+        <credentials>
+          <cik>0001649339</cik>
+          <ccc>XXXXXXXX</ccc>
+        </credentials>
+      </filer>
+      <periodOfReport>03-31-2023</periodOfReport>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPage>
+      <reportCalendarOrQuarter>03-31-2023</reportCalendarOrQuarter>
+      <isAmendment>false</isAmendment>
+      <filingManager>
+        <name>Scion Asset Management, LLC</name>
+        <address>
+          <com:street1>20665 4TH STREET</com:street1>
+          <com:street2>SUITE 201</com:street2>
+          <com:city>SARATOGA</com:city>
+          <com:stateOrCountry>CA</com:stateOrCountry>
+          <com:zipCode>95070</com:zipCode>
+        </address>
+      </filingManager>
+      <reportType>13F HOLDINGS REPORT</reportType>
+      <form13FFileNumber>028-17276</form13FFileNumber>
+      <crdNumber>000167772</crdNumber>
+      <secFileNumber>801-113529</secFileNumber>
+      <provideInfoForInstruction5>N</provideInfoForInstruction5>
+    </coverPage>
+    <signatureBlock>
+      <name>Michael J. Burry</name>
+      <title>Chief Executive Officer</title>
+      <phone>408-441-8400</phone>
+      <signature>/s/ Michael J. Burry</signature>
+      <city>Saratoga</city>
+      <stateOrCountry>CA</stateOrCountry>
+      <signatureDate>05-15-2023</signatureDate>
+    </signatureBlock>
+    <summaryPage>
+      <otherIncludedManagersCount>2</otherIncludedManagersCount>
+      <tableEntryTotal>21</tableEntryTotal>
+      <tableValueTotal>106935614</tableValueTotal>
+      <otherManagers2Info>
+        <otherManager2>
+          <sequenceNumber>1</sequenceNumber>
+          <otherManager>
+            <cik>0001768021</cik>
+            <form13FFileNumber>028-19326</form13FFileNumber>
+            <name>Scion Asset Partners, LP</name>
+          </otherManager>
+        </otherManager2>
+        <otherManager2>
+          <sequenceNumber>2</sequenceNumber>
+          <otherManager>
+            <cik>0001768023</cik>
+            <form13FFileNumber>028-19327</form13FFileNumber>
+            <name>SCION CAPITAL GROUP, LLC</name>
+          </otherManager>
+        </otherManager2>
+      </otherManagers2Info>
+    </summaryPage>
+  </formData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>INFORMATION TABLE
+<SEQUENCE>2
+<FILENAME>informationtable.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="utf-8"?>
+<informationTable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sec.gov/edgar/document/thirteenf/informationtable">
+    <infoTable>
+        <nameOfIssuer>ALIBABA GROUP HLDG LTD</nameOfIssuer>
+        <titleOfClass>SPONSORED ADS</titleOfClass>
+        <cusip>01609W102</cusip>
+        <value>10218000</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>100000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <otherManager>1,2</otherManager>
+        <votingAuthority>
+            <Sole>100000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>CAPITAL ONE FINL CORP</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>14040H105</cusip>
+        <value>7212000</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>75000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <otherManager>1,2</otherManager>
+        <votingAuthority>
+            <Sole>75000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>COHERENT CORP</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>19247G107</cusip>
+        <value>4760000</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>125000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <otherManager>1,2</otherManager>
+        <votingAuthority>
+            <Sole>125000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>COTERRA ENERGY INC</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>127097103</cusip>
+        <value>3681000</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>150000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <otherManager>1,2</otherManager>
+        <votingAuthority>
+            <Sole>150000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>DEVON ENERGY CORP NEW</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>25179M103</cusip>
+        <value>2444362</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>48298</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <otherManager>1,2</otherManager>
+        <votingAuthority>
+            <Sole>48298</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>FIRST REP BK SAN FRANCISCO C</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>33616C100</cusip>
+        <value>2098500</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>150000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <otherManager>1,2</otherManager>
+        <votingAuthority>
+            <Sole>150000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>GEO GROUP INC NEW</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>36162J106</cusip>
+        <value>3156000</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>400000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <otherManager>1,2</otherManager>
+        <votingAuthority>
+            <Sole>400000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>HUNTINGTON BANCSHARES INC</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>446150104</cusip>
+        <value>2070880</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>184900</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <otherManager>1,2</otherManager>
+        <votingAuthority>
+            <Sole>184900</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>JD.COM INC</nameOfIssuer>
+        <titleOfClass>SPON ADR CL A</titleOfClass>
+        <cusip>47215P106</cusip>
+        <value>10972500</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>250000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <otherManager>1,2</otherManager>
+        <votingAuthority>
+            <Sole>250000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>LIBERTY LATIN AMERICA LTD</nameOfIssuer>
+        <titleOfClass>COM CL C</titleOfClass>
+        <cusip>G9001E128</cusip>
+        <value>6608000</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>800000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <otherManager>1,2</otherManager>
+        <votingAuthority>
+            <Sole>800000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>NEW YORK CMNTY BANCORP INC</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>649445103</cusip>
+        <value>7684000</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>850000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <otherManager>1,2</otherManager>
+        <votingAuthority>
+            <Sole>850000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>NOV INC</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>62955J103</cusip>
+        <value>2657925</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>143594</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <otherManager>1,2</otherManager>
+        <votingAuthority>
+            <Sole>143594</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>OVINTIV INC</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>69047Q102</cusip>
+        <value>811800</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>22500</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <otherManager>1,2</otherManager>
+        <votingAuthority>
+            <Sole>22500</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>PACWEST BANCORP DEL</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>695263103</cusip>
+        <value>2432500</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>250000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <otherManager>1,2</otherManager>
+        <votingAuthority>
+            <Sole>250000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>SIBANYE STILLWATER LTD</nameOfIssuer>
+        <titleOfClass>SPONSORED ADR</titleOfClass>
+        <cusip>82575P107</cusip>
+        <value>6656000</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>800000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <otherManager>1,2</otherManager>
+        <votingAuthority>
+            <Sole>800000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>SIGNET JEWELERS LIMITED</nameOfIssuer>
+        <titleOfClass>SHS</titleOfClass>
+        <cusip>G81276100</cusip>
+        <value>9722500</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>125000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <otherManager>1,2</otherManager>
+        <votingAuthority>
+            <Sole>125000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>THE CIGNA GROUP</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>125523100</cusip>
+        <value>6388250</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>25000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <otherManager>1,2</otherManager>
+        <votingAuthority>
+            <Sole>25000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>THE REALREAL INC</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>88339P101</cusip>
+        <value>862397</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>684442</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <otherManager>1,2</otherManager>
+        <votingAuthority>
+            <Sole>684442</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>WELLS FARGO CO NEW</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>949746101</cusip>
+        <value>4672500</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>125000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <otherManager>1,2</otherManager>
+        <votingAuthority>
+            <Sole>125000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>WESTERN ALLIANCE BANCORP</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>957638109</cusip>
+        <value>4442500</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>125000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <otherManager>1,2</otherManager>
+        <votingAuthority>
+            <Sole>125000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>ZOOM VIDEO COMMUNICATIONS IN</nameOfIssuer>
+        <titleOfClass>CL A</titleOfClass>
+        <cusip>98980L101</cusip>
+        <value>7384000</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>100000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <otherManager>1,2</otherManager>
+        <votingAuthority>
+            <Sole>100000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+</informationTable>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
