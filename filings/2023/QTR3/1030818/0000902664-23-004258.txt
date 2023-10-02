@@ -1,0 +1,132 @@
+<SEC-DOCUMENT>0000902664-23-004258.txt : 20230808
+<SEC-HEADER>0000902664-23-004258.hdr.sgml : 20230808
+<ACCEPTANCE-DATETIME>20230807212425
+ACCESSION NUMBER:		0000902664-23-004258
+CONFORMED SUBMISSION TYPE:	13F-HR
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20230630
+FILED AS OF DATE:		20230808
+DATE AS OF CHANGE:		20230807
+EFFECTIVENESS DATE:		20230808
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			OAK MANAGEMENT CORP
+		CENTRAL INDEX KEY:			0001030818
+		IRS NUMBER:				000000000
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		13F-HR
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-17220
+		FILM NUMBER:		231149078
+
+	BUSINESS ADDRESS:	
+		STREET 1:		195 DANBURY ROAD, BUILDING A, SUITE 220
+		CITY:			WILTON
+		STATE:			CT
+		ZIP:			06897
+		BUSINESS PHONE:		2032268346
+
+	MAIL ADDRESS:	
+		STREET 1:		195 DANBURY ROAD, BUILDING A, SUITE 220
+		CITY:			WILTON
+		STATE:			CT
+		ZIP:			06897
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-HR
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xsi:schemaLocation="http://www.sec.gov/edgar/thirteenffiler eis_13F_Filer.xsd" xmlns="http://www.sec.gov/edgar/thirteenffiler" xmlns:ns1="http://www.sec.gov/edgar/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <schemaVersion>X0202</schemaVersion>
+  <headerData>
+    <submissionType>13F-HR</submissionType>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <flags>
+        <confirmingCopyFlag>false</confirmingCopyFlag>
+        <returnCopyFlag>false</returnCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+      <filer>
+        <credentials>
+          <cik>0001030818</cik>
+          <ccc>XXXXXXXX</ccc>
+        </credentials>
+      </filer>
+      <periodOfReport>06-30-2023</periodOfReport>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPage>
+      <reportCalendarOrQuarter>06-30-2023</reportCalendarOrQuarter>
+      <isAmendment>false</isAmendment>
+      <filingManager>
+        <name>OAK MANAGEMENT CORP</name>
+        <address>
+          <ns1:street1>195 Danbury Road, Building A, Suite 220</ns1:street1>
+          <ns1:city>Wilton</ns1:city>
+          <ns1:stateOrCountry>CT</ns1:stateOrCountry>
+          <ns1:zipCode>06897</ns1:zipCode>
+        </address>
+      </filingManager>
+      <reportType>13F HOLDINGS REPORT</reportType>
+      <form13FFileNumber>028-17220</form13FFileNumber>
+      <crdNumber>000162441</crdNumber>
+      <secFileNumber>802-76266</secFileNumber>
+      <provideInfoForInstruction5>N</provideInfoForInstruction5>
+    </coverPage>
+    <signatureBlock>
+      <name>Edward F. Glassmeyer</name>
+      <title>Authorized Person</title>
+      <phone>203-226-8346</phone>
+      <signature>/s/ Edward F. Glassmeyer</signature>
+      <city>Wilton</city>
+      <stateOrCountry>CT</stateOrCountry>
+      <signatureDate>08-07-2023</signatureDate>
+    </signatureBlock>
+    <summaryPage>
+      <otherIncludedManagersCount>0</otherIncludedManagersCount>
+      <tableEntryTotal>1</tableEntryTotal>
+      <tableValueTotal>4868640</tableValueTotal>
+    </summaryPage>
+  </formData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>INFORMATION TABLE
+<SEQUENCE>2
+<FILENAME>infotable.xml
+<TEXT>
+<XML>
+<?xml version="1.0" ?>
+<informationTable xsi:schemaLocation="http://www.sec.gov/edgar/document/thirteenf/informationtable eis_13FDocument.xsd" xmlns="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:n1="http://www.sec.gov/edgar/document/thirteenf/informationtable" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <infoTable>
+    <nameOfIssuer>Airspan Networks Holdings In</nameOfIssuer>
+    <titleOfClass>COM</titleOfClass>
+    <cusip>00951K104</cusip>
+    <value>4868640</value>
+    <shrsOrPrnAmt>
+      <sshPrnamt>28639059</sshPrnamt>
+      <sshPrnamtType>SH</sshPrnamtType>
+    </shrsOrPrnAmt>
+    <investmentDiscretion>SOLE</investmentDiscretion>
+    <votingAuthority>
+      <Sole>28639059</Sole>
+      <Shared>0</Shared>
+      <None>0</None>
+    </votingAuthority>
+  </infoTable>
+</informationTable>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>

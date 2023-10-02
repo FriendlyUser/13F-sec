@@ -1,0 +1,98 @@
+<SEC-DOCUMENT>0000950123-23-008109.txt : 20230814
+<SEC-HEADER>0000950123-23-008109.hdr.sgml : 20230814
+<ACCEPTANCE-DATETIME>20230814160514
+ACCESSION NUMBER:		0000950123-23-008109
+CONFORMED SUBMISSION TYPE:	13F-NT
+PUBLIC DOCUMENT COUNT:		1
+CONFORMED PERIOD OF REPORT:	20230630
+FILED AS OF DATE:		20230814
+DATE AS OF CHANGE:		20230814
+EFFECTIVENESS DATE:		20230814
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			BERKSHIRE HATHAWAY LIFE INSURANCE CO OF NEBRASKA
+		CENTRAL INDEX KEY:			0001015867
+		IRS NUMBER:				000000000
+
+	FILING VALUES:
+		FORM TYPE:		13F-NT
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-05678
+		FILM NUMBER:		231169763
+
+	BUSINESS ADDRESS:	
+		STREET 1:		1314 DOUGLAS STREET
+		CITY:			OMAHA
+		STATE:			NE
+		ZIP:			68102
+		BUSINESS PHONE:		4023461400
+
+	MAIL ADDRESS:	
+		STREET 1:		1314 DOUGLAS STREET
+		CITY:			OMAHA
+		STATE:			NE
+		ZIP:			68102
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-NT
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xsi:schemaLocation="http://www.sec.gov/edgar/thirteenffiler eis_13F_Filer.xsd" xmlns:ns1="http://www.sec.gov/edgar/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sec.gov/edgar/thirteenffiler">
+  <schemaVersion>X0202</schemaVersion>
+  <headerData>
+    <submissionType>13F-NT</submissionType>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <flags/>
+      <filer>
+        <credentials>
+          <cik>0001015867</cik>
+          <ccc>XXXXXXXX</ccc>
+        </credentials>
+      </filer>
+      <periodOfReport>06-30-2023</periodOfReport>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPage>
+      <reportCalendarOrQuarter>06-30-2023</reportCalendarOrQuarter>
+      <isAmendment>false</isAmendment>
+      <filingManager>
+        <name>Berkshire Hathaway Life Insurance Co of Nebraska</name>
+        <address>
+          <ns1:street1>1314 Douglas Street</ns1:street1>
+          <ns1:city>Omaha</ns1:city>
+          <ns1:stateOrCountry>NE</ns1:stateOrCountry>
+          <ns1:zipCode>68102</ns1:zipCode>
+        </address>
+      </filingManager>
+      <reportType>13F NOTICE</reportType>
+      <form13FFileNumber>028-05678</form13FFileNumber>
+      <otherManagersInfo>
+        <otherManager>
+          <form13FFileNumber>28-4545</form13FFileNumber>
+          <name>Berkshire Hathaway Inc</name>
+        </otherManager>
+      </otherManagersInfo>
+      <provideInfoForInstruction5>N</provideInfoForInstruction5>
+    </coverPage>
+    <signatureBlock>
+      <name>Marc D. Hamburg</name>
+      <title>Assistant Secretary</title>
+      <phone>402-346-1400</phone>
+      <signature>Marc D. Hamburg</signature>
+      <city>Omaha</city>
+      <stateOrCountry>NE</stateOrCountry>
+      <signatureDate>08-14-2023</signatureDate>
+    </signatureBlock>
+  </formData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
