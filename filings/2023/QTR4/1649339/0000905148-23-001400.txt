@@ -1,0 +1,326 @@
+<SEC-DOCUMENT>0000905148-23-001400.txt : 20231114
+<SEC-HEADER>0000905148-23-001400.hdr.sgml : 20231114
+<ACCEPTANCE-DATETIME>20231114113546
+ACCESSION NUMBER:		0000905148-23-001400
+CONFORMED SUBMISSION TYPE:	13F-HR
+PUBLIC DOCUMENT COUNT:		2
+CONFORMED PERIOD OF REPORT:	20230930
+FILED AS OF DATE:		20231114
+DATE AS OF CHANGE:		20231114
+EFFECTIVENESS DATE:		20231114
+
+FILER:
+
+	COMPANY DATA:	
+		COMPANY CONFORMED NAME:			Scion Asset Management, LLC
+		CENTRAL INDEX KEY:			0001649339
+		IRS NUMBER:				000000000
+		STATE OF INCORPORATION:			DE
+		FISCAL YEAR END:			1231
+
+	FILING VALUES:
+		FORM TYPE:		13F-HR
+		SEC ACT:		1934 Act
+		SEC FILE NUMBER:	028-17276
+		FILM NUMBER:		231402828
+
+	BUSINESS ADDRESS:	
+		STREET 1:		20665 4TH STREET
+		STREET 2:		SUITE 201
+		CITY:			SARATOGA
+		STATE:			CA
+		ZIP:			95070
+		BUSINESS PHONE:		408-441-8400
+
+	MAIL ADDRESS:	
+		STREET 1:		20665 4TH STREET
+		STREET 2:		SUITE 201
+		CITY:			SARATOGA
+		STATE:			CA
+		ZIP:			95070
+</SEC-HEADER>
+<DOCUMENT>
+<TYPE>13F-HR
+<SEQUENCE>1
+<FILENAME>primary_doc.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns:com="http://www.sec.gov/edgar/common" xmlns="http://www.sec.gov/edgar/thirteenffiler">
+  <schemaVersion>X0202</schemaVersion>
+  <headerData>
+    <submissionType>13F-HR</submissionType>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <filer>
+        <credentials>
+          <cik>0001649339</cik>
+          <ccc>XXXXXXXX</ccc>
+        </credentials>
+      </filer>
+      <periodOfReport>09-30-2023</periodOfReport>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <coverPage>
+      <reportCalendarOrQuarter>09-30-2023</reportCalendarOrQuarter>
+      <isAmendment>false</isAmendment>
+      <filingManager>
+        <name>Scion Asset Management, LLC</name>
+        <address>
+          <com:street1>20665 4TH STREET</com:street1>
+          <com:street2>SUITE 201</com:street2>
+          <com:city>SARATOGA</com:city>
+          <com:stateOrCountry>CA</com:stateOrCountry>
+          <com:zipCode>95070</com:zipCode>
+        </address>
+      </filingManager>
+      <reportType>13F HOLDINGS REPORT</reportType>
+      <form13FFileNumber>028-17276</form13FFileNumber>
+      <crdNumber>000167772</crdNumber>
+      <secFileNumber>801-113529</secFileNumber>
+      <provideInfoForInstruction5>Y</provideInfoForInstruction5>
+      <additionalInformation>Please note that the Investment Manager is reporting long put option positions on this Form 13F in the manner prescribed by Special Instruction 10 and FAQs 41 and 44 (i.e., gross long put options reported in terms of the securities underlying the options). As such, the reported value in this Form 13F is different from the actual value of such unexercised long put options as reflected in the Investment Manager's books and records, and the Form 13F report excludes any short positions on the Investment Manager's books and records, which may serve to hedge the long positions.</additionalInformation>
+    </coverPage>
+    <signatureBlock>
+      <name>Michael J. Burry</name>
+      <title>Chief Executive Officer</title>
+      <phone>408-441-8400</phone>
+      <signature>/s/ Michael J. Burry</signature>
+      <city>Saratoga</city>
+      <stateOrCountry>CA</stateOrCountry>
+      <signatureDate>11-14-2023</signatureDate>
+    </signatureBlock>
+    <summaryPage>
+      <otherIncludedManagersCount>0</otherIncludedManagersCount>
+      <tableEntryTotal>13</tableEntryTotal>
+      <tableValueTotal>98976144</tableValueTotal>
+    </summaryPage>
+  </formData>
+</edgarSubmission>
+</XML>
+</TEXT>
+</DOCUMENT>
+<DOCUMENT>
+<TYPE>INFORMATION TABLE
+<SEQUENCE>2
+<FILENAME>informationtable.xml
+<TEXT>
+<XML>
+<?xml version="1.0" encoding="us-ascii"?>
+<informationTable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sec.gov/edgar/document/thirteenf/informationtable">
+    <infoTable>
+        <nameOfIssuer>ALIBABA GROUP HLDG LTD</nameOfIssuer>
+        <titleOfClass>SPONSORED ADS</titleOfClass>
+        <cusip>01609W102</cusip>
+        <value>4337000</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>50000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <votingAuthority>
+            <Sole>50000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>BOOKING HOLDINGS INC</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>09857L108</cusip>
+        <value>7709875</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>2500</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <putCall>Put</putCall>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <votingAuthority>
+            <Sole>2500</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>BOOKING HOLDINGS INC</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>09857L108</cusip>
+        <value>4625925</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>1500</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <votingAuthority>
+            <Sole>1500</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>CRESCENT ENERGY COMPANY</nameOfIssuer>
+        <titleOfClass>CL A COM</titleOfClass>
+        <cusip>44952J104</cusip>
+        <value>2528000</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>200000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <votingAuthority>
+            <Sole>200000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>EURONAV NV</nameOfIssuer>
+        <titleOfClass>SHS</titleOfClass>
+        <cusip>B38564108</cusip>
+        <value>4107500</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>250000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <votingAuthority>
+            <Sole>250000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>HUDSON PAC PPTYS INC</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>444097109</cusip>
+        <value>2660000</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>400000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <votingAuthority>
+            <Sole>400000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>ISHARES TR</nameOfIssuer>
+        <titleOfClass>ISHARES SEMICDTR</titleOfClass>
+        <cusip>464287523</cusip>
+        <value>47365000</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>100000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <putCall>Put</putCall>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <votingAuthority>
+            <Sole>100000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>JD.COM INC</nameOfIssuer>
+        <titleOfClass>SPON ADR CL A</titleOfClass>
+        <cusip>47215P106</cusip>
+        <value>3641250</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>125000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <votingAuthority>
+            <Sole>125000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>NEXSTAR MEDIA GROUP INC</nameOfIssuer>
+        <titleOfClass>COMMON STOCK</titleOfClass>
+        <cusip>65336K103</cusip>
+        <value>6975094</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>48651</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <votingAuthority>
+            <Sole>48651</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>SAFE BULKERS INC</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>Y7388L103</cusip>
+        <value>972000</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>300000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <votingAuthority>
+            <Sole>300000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>STAR BULK CARRIERS CORP.</nameOfIssuer>
+        <titleOfClass>SHS PAR</titleOfClass>
+        <cusip>Y8162K204</cusip>
+        <value>4820000</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>250000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <votingAuthority>
+            <Sole>250000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>STELLANTIS N.V</nameOfIssuer>
+        <titleOfClass>SHS</titleOfClass>
+        <cusip>N82405106</cusip>
+        <value>7652000</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>400000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <votingAuthority>
+            <Sole>400000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+    <infoTable>
+        <nameOfIssuer>THE REALREAL INC</nameOfIssuer>
+        <titleOfClass>COM</titleOfClass>
+        <cusip>88339P101</cusip>
+        <value>1582500</value>
+        <shrsOrPrnAmt>
+            <sshPrnamt>750000</sshPrnamt>
+            <sshPrnamtType>SH</sshPrnamtType>
+        </shrsOrPrnAmt>
+        <investmentDiscretion>DFND</investmentDiscretion>
+        <votingAuthority>
+            <Sole>750000</Sole>
+            <Shared>0</Shared>
+            <None>0</None>
+        </votingAuthority>
+    </infoTable>
+</informationTable>
+</XML>
+</TEXT>
+</DOCUMENT>
+</SEC-DOCUMENT>
